@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolva.Biz", "Evolva.Biz\Evolva.Biz.csproj", "{7F12CB6E-8CF4-411B-91FD-8D3FDCD042AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMissionEvolva", "UnitTestProject2\TestMissionEvolva.csproj", "{A4DF0035-60DD-4E99-82DF-FD664D9E1E9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7D85B742-E240-45DD-B64D-597D92F39FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F12CB6E-8CF4-411B-91FD-8D3FDCD042AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F12CB6E-8CF4-411B-91FD-8D3FDCD042AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F12CB6E-8CF4-411B-91FD-8D3FDCD042AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F12CB6E-8CF4-411B-91FD-8D3FDCD042AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DF0035-60DD-4E99-82DF-FD664D9E1E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DF0035-60DD-4E99-82DF-FD664D9E1E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DF0035-60DD-4E99-82DF-FD664D9E1E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DF0035-60DD-4E99-82DF-FD664D9E1E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4DF0035-60DD-4E99-82DF-FD664D9E1E9F} = {7D85B742-E240-45DD-B64D-597D92F39FFD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A75CDBA-EC85-4840-95FB-2EBD082680E7}
+	EndGlobalSection
+EndGlobal
